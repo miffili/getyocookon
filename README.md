@@ -1,6 +1,6 @@
 # Get yo' cook on • A React.js web app
 
-This is going to be my second project with React.js.  
+This is going to be my second project with React.js. Project start: April 17, 2018
 
 ## The plan
 
@@ -12,7 +12,7 @@ After coding the [Chuck-o-mat](https://github.com/Miffili/ChuckyN), I wanted to 
 
 For this app, I further decided to use [React-Bootstrap](https://react-bootstrap.github.io/), which currently targets Bootstrap v3.  
 
-Additionally I will [log](log.md) my process, as comprehensible as possible.
+Additionally I will [log](log.md) my process as comprehensible as possible.
 
 ## User stories
 
@@ -24,8 +24,6 @@ The user can:
 - [ ] add, edit and delete own recipe  
 - [ ] add recipes to own collection/cook book, and delete them again
 
-----------
-Project start: April 17, 2018
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
