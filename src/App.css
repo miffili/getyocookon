@@ -21,18 +21,12 @@
   border: 2px solid black;
   border-radius: 3px;
   background-color: white;
-  height: 2rem;
+  height: 4rem;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: .1rem;
   font-weight: bold;
   transition: all 0.3s;
-}
-
-.teaser form {
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .show-app:hover {
