@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Landing from './Landing.js';
-import './App.css';
+import '../App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Landing />
+      <div className="App" style={{fontSize: "3rem"}}>
+        Yellow! ☺
       </div>
     );
   }

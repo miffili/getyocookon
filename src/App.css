@@ -11,10 +11,11 @@
   display: grid;
   justify-content: center;
   justify-items: center;
+  align-items: center;
   margin-bottom: 1.5rem;
 }
 
-.showApp {
+.show-app {
   margin-top: 1.5rem;
   border: 2px solid black;
   border-radius: 3px;
@@ -27,13 +28,13 @@
   transition: all 0.3s;
 }
 
-.showApp::after {
-  content: '';
-  height: 0;
+.teaser form {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.showApp:hover {
+.show-app:hover {
   color: white;
   background-color: black;
 }
