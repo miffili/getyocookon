@@ -14,6 +14,30 @@
   margin-bottom: 1.5rem;
 }
 
+.showApp {
+  margin-top: 1.5rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: white;
+  height: 2rem;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.showApp::after {
+  content: '';
+  height: 0;
+  width: 100%;
+}
+
+.showApp:hover {
+  color: white;
+  background-color: black;
+}
+
 .logo {
   transform: rotate(-14deg);
   margin-bottom: 3rem;
