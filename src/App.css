@@ -5,6 +5,7 @@
   display: grid;
   justify-content: center;
   align-content: center;
+  /* border-left: 25rem solid grey; */
 }
 
 .teaser {
@@ -55,6 +56,20 @@ h2 {
   font-weight: 300;
   margin-bottom: 1.5rem;
   letter-spacing: -0.075rem;
+}
+
+/* Card Stylings */
+.thumbnail img {
+}
+
+.full-spatula {
+  background-image: url('/icons/spatula_full.png');
+  background-size: contain;
+}
+
+.empty-spatula {
+  background-image: url('/icons/spatula.png');
+  background-size: contain;
 }
 
 footer {
