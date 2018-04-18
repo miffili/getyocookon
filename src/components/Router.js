@@ -4,7 +4,7 @@ import Landing from "./Landing";
 import App from "./App";
 
 const Router = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route exact path="/" component={Landing}/>
       <Route exact path="/home" component={App}/>
