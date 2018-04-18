@@ -51,20 +51,6 @@ h2 {
   letter-spacing: -0.075rem;
 }
 
-/* Card Stylings */
-.thumbnail img {
-}
-
-.full-spatula {
-  background-image: url('/icons/spatula_full.png');
-  background-size: contain;
-}
-
-.empty-spatula {
-  background-image: url('/icons/spatula.png');
-  background-size: contain;
-}
-
 footer {
   width: 100%;
   height: 0;
