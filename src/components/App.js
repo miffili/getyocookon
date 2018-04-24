@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import RecipeCard from "./RecipeCard";
-import { Grid, Row } from 'react-bootstrap';
-import '../App.css';
+import Navi from "./Navi";
+import { Grid, Row } from "react-bootstrap";
+import "../App.css";
 
 class App extends Component {
   render() {
@@ -10,16 +11,31 @@ class App extends Component {
       //   Yellow! ☺
       // </div>
       <div className="App">
-        <Grid>
+        <Navi />
+        <Grid
+          style={{
+            margin: "2rem auto"
+          }}
+        >
           <Row>
-            <RecipeCard img="pizza.jpg"/>
-            <RecipeCard img="veganPho.jpg"/>
-            <RecipeCard img="avocadoToast.jpg"/>
-            <RecipeCard img="blueberryScones.jpg"/>
-            <RecipeCard img="deliSandwich.jpg"/>
-            <RecipeCard img="flankSteakTacos.jpg"/>
-            <RecipeCard img="healthyGazpacho.jpg"/>
-            <RecipeCard img="melonGrapeSalad.jpg"/>
+            <RecipeCard img="pizza.jpg" />
+            <RecipeCard img="veganPho.jpg" />
+            <RecipeCard img="avocadoToast.jpg" />
+            <RecipeCard img="blueberryScones.jpg" />
+            <RecipeCard img="deliSandwich.jpg" />
+            <RecipeCard img="healthyGazpacho.jpg" />
+            <RecipeCard img="pizza.jpg" />
+            <RecipeCard img="deliSandwich.jpg" />
+            <RecipeCard img="flankSteakTacos.jpg" />
+            <RecipeCard img="deliSandwich.jpg" />
+            <RecipeCard img="flankSteakTacos.jpg" />
+            <RecipeCard img="veganPho.jpg" />
+            <RecipeCard img="melonGrapeSalad.jpg" />
+            <RecipeCard img="avocadoToast.jpg" />
+            <RecipeCard img="healthyGazpacho.jpg" />
+            <RecipeCard img="deliSandwich.jpg" />
+            <RecipeCard img="blueberryScones.jpg" />
+            <RecipeCard img="healthyGazpacho.jpg" />
           </Row>
         </Grid>
       </div>
