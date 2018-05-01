@@ -13,7 +13,7 @@ After coding the [Chuck-o-mat](https://github.com/Miffili/ChuckyN), I wanted to 
 
 For this app, I further decided to use ~~[React-Bootstrap](https://react-bootstrap.github.io/), which currently targets Bootstrap v3~~ [reactstrap](https://reactstrap.github.io/).
 
-Additionally I will [log](log.md) my process as comprehensible as possible.
+Additionally I will [log](log.md) my process as comprehensible as possible, starting in May (redesign).
 
 ## User stories
 
