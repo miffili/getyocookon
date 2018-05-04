@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import RecipeCard from "./RecipeCard";
-import Navi from "./Navi";
-import { Grid, Row } from "react-bootstrap";
+import { Container, CardDeck, Row } from "reactstrap";
 import "../App.css";
 
 class App extends Component {
@@ -11,13 +10,12 @@ class App extends Component {
       //   Yellow! ☺
       // </div>
       <div className="App">
-        <Navi />
-        <Grid
+        <Container
           style={{
             margin: "2rem auto"
           }}
         >
-          <Row>
+          <CardDeck>
             <RecipeCard img="pizza.jpg" />
             <RecipeCard img="veganPho.jpg" />
             <RecipeCard img="avocadoToast.jpg" />
@@ -36,8 +34,8 @@ class App extends Component {
             <RecipeCard img="deliSandwich.jpg" />
             <RecipeCard img="blueberryScones.jpg" />
             <RecipeCard img="healthyGazpacho.jpg" />
-          </Row>
-        </Grid>
+          </CardDeck>
+        </Container>
       </div>
     );
   }

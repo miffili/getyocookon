@@ -1,5 +1,13 @@
 import React from "react";
-import { Button, Thumbnail, Col } from "react-bootstrap";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardImg,
+  CardTitle,
+  CardText,
+  Col
+} from "reactstrap";
 
 const RecipeCard = props => {
   const buttonStyle = {
@@ -15,20 +23,25 @@ const RecipeCard = props => {
   };
 
   return (
-    <Col xs={12} sm={6} md={3}>
-      <Thumbnail
-        src={`images/${props.img}`}
-        alt="homemade pizza on wooden board"
-        className="thumbnail"
-      >
-        <div style={ratingStyle}>⭐⭐⭐⭐⭐</div>
-        <h3>Delicious Dish</h3>
-        <p>
-          <Button bsStyle="default" style={buttonStyle}>
-            more...
-          </Button>
-        </p>
-      </Thumbnail>
+    <Col xs={12} md={4} xl={3}>
+      <Card style={{ margin: "0.5rem 0" }}>
+        <CardBody>
+          <CardTitle>Delicious Dish</CardTitle>
+        </CardBody>
+        <img
+          width="100%"
+          src={`images/${props.img}`}
+          alt="homemade pizza on wooden board"
+        />
+        <CardBody>
+          <div style={ratingStyle}>⭐⭐⭐⭐⭐</div>
+          <CardText>
+            <Button outline color="secondary" style={buttonStyle}>
+              more...
+            </Button>
+          </CardText>
+        </CardBody>
+      </Card>
     </Col>
   );
 };
