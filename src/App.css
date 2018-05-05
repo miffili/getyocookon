@@ -23,3 +23,12 @@
 .menu-item {
   width: 100%;
 }
+
+h5 {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.badge {
+  font-weight: inherit;
+}
