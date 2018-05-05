@@ -1,7 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "../index.css";
 
 class Landing extends React.Component {
+  static propTypes = {
+    showApp: PropTypes.func
+  };
+
   showApp = event => {
     this.props.history.push("/home");
   };
