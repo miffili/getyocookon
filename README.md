@@ -19,9 +19,9 @@ Additionally I will [log](log.md) my process as comprehensible as possible, star
 
 The user can:
 
-* [ ] see a collection of recipes
-* [ ] each recipe card provides a picture & a few details
-* [ ] get more information about recipe either by clicking on the card or a button
+* [x] see a collection of recipes
+* [x] each recipe card provides a picture & a few details
+* [x] get more information about recipe either by clicking on ~~the card or~~ a button
 * [ ] filter recipes
 * [ ] sort recipes by different parameters
 
